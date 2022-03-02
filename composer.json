@@ -1,17 +1,11 @@
 {
-    "name": "florianv/exchanger",
+    "name": "openwse/exchanger",
     "type": "library",
     "description": "Currency exchange rates framework for PHP",
     "keywords": ["currency", "money", "rate", "conversion", "exchange rates"],
-    "homepage": "https://github.com/florianv/exchanger",
+    "homepage": "https://github.com/openwse/exchanger",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Florian Voutzinos",
-            "email": "florian@voutzinos.com",
-            "homepage": "https://voutzinos.com"
-        }
-    ],
+    "authors": [],
     "autoload": {
         "psr-4": {
             "Exchanger\\": "src/"
