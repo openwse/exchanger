@@ -35,11 +35,11 @@ final class CurrencyConverter extends HttpService
 
     const FREE_LATEST_URL = 'https://free.currencyconverterapi.com/api/v6/convert?q=%s&apiKey=%s';
 
-    const ENTERPRISE_LATEST_URL = 'https://api.currencyconverterapi.com/api/v6/convert?q=%s&apiKey=%s';
+    const ENTERPRISE_LATEST_URL = 'https://api.currconv.com/api/v7/convert?q=%s&apiKey=%s';
 
     const FREE_HISTORICAL_URL = 'https://free.currencyconverterapi.com/api/v6/convert?q=%s&date=%s&apiKey=%s';
 
-    const ENTERPRISE_HISTORICAL_URL = 'https://api.currencyconverterapi.com/api/v6/convert?q=%s&date=%s&apiKey=%s';
+    const ENTERPRISE_HISTORICAL_URL = 'https://api.currconv.com/api/v7convert?q=%s&date=%s&apiKey=%s';
 
     /**
      * {@inheritdoc}
